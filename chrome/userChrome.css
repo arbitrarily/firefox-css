@@ -85,7 +85,7 @@
   --firefox-safari-style-button-border-color-bottom: transparent;
   --firefox-safari-style-button-border-color-inactive: transparent;
   /* Font and icon color of buttons and urlbar */
-  --firefox-safari-style-button-color: rgba(0,0,0,0.6);
+  --firefox-safari-style-button-color: rgba(255,255,255,0.5);
   --tab-min-height: 0 !important;
   --space-above-tabbar: 0 !important;
   --toolbarbutton-vertical-text-padding: 4px !important;
@@ -131,7 +131,7 @@
     --firefox-safari-style-tab-border-color-active: rgba(0, 0, 0, 0.1);
     --firefox-safari-style-tab-border-color-inactive: rgba(0, 0, 0, 0.1);
     /* Colors e.g. for tabs or bookmarks */
-    --firefox-safari-style-tab-color: rgba(0, 0, 0, 0.1);
+    --firefox-safari-style-tab-color: rgba(255, 255, 255, 0.25);
     --firefox-safari-style-tab-hover-color: var(--firefox-safari-style-tab-color);
     --firefox-safari-style-tab-hover-background: var(--firefox-safari-style-input-background-active);
     /********************/
