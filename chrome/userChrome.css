@@ -142,11 +142,11 @@
     /* Border color of buttons and urlbar */
     --firefox-safari-style-tab-border-bottom-color-active: rgba(0,0,0,0.4);
     --firefox-safari-style-tab-border-bottom-color-inactive: var(--firefox-safari-style-tab-border-bottom-color-active);
-    --firefox-safari-style-tab-border-left-color-active: rgba(255,255,255,0.2);
+    --firefox-safari-style-tab-border-left-color-active: rgba(0,0,0,0.2);
     --firefox-safari-style-tab-border-left-color-inactive: var(--firefox-safari-style-tab-border-left-color-active);
-    --firefox-safari-style-tab-border-left-color-vibrance: rgba(255,255,255,0.15);
+    --firefox-safari-style-tab-border-left-color-vibrance: rgba(0,0,0,0.15);
     /* Font and icon color of buttons and urlbar */
-    --firefox-safari-style-button-color: rgba(255,255,255,0.7);
+    --firefox-safari-style-button-color: rgba(255,255,255,0.5);
   }
 
   /******************/
