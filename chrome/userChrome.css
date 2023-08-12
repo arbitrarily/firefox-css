@@ -24,7 +24,7 @@
   /* Background color for inactive windows */
   --firefox-safari-style-background-color-inactive: rgba(0, 0, 0, 0.1);
   /* Background color for private windows */
-  --firefox-safari-style-background-color-private: #838383;
+  --firefox-safari-style-background-color-private: #121212;
   /* Border colors */
   --firefox-safari-style-title-border-color-active: rgba(0,0,0,0.15);
   --firefox-safari-style-title-border-color-inactive: var(--firefox-safari-style-title-border-color-active);
@@ -51,7 +51,7 @@
   /* Button background hover on incative tab */
   --firefox-safari-style-tab-background-color-hover: rgba(0,0,0,0.1);
   /* Icon size of favicon, throbber, sound etc. */
-  --firefox-safari-style-button-icon: 16px;
+  --firefox-safari-style-button-icon: 20px;
   /* Border colors */
   --firefox-safari-style-tab-border-color-active: rgba(0,0,0,0.1);
   --firefox-safari-style-tab-border-color-inactive: rgba(0, 0, 0, 0.1);
@@ -165,13 +165,13 @@
 }
 @media (-moz-mac-yosemite-theme), (-moz-mac-big-sur-theme) {
   #mainPopupSet #pageActionActivatedActionPanel,
-#mainPopupSet #pageActionPanel,
-#mainPopupSet #editBookmarkPanel,
-#mainPopupSet .browser-extension-panel,
-#mainPopupSet #widget-overflow,
-#mainPopupSet #downloadsPanel,
-#mainPopupSet #appMenu-popup,
-#mainPopupSet > panel {
+  #mainPopupSet #pageActionPanel,
+  #mainPopupSet #editBookmarkPanel,
+  #mainPopupSet .browser-extension-panel,
+  #mainPopupSet #widget-overflow,
+  #mainPopupSet #downloadsPanel,
+  #mainPopupSet #appMenu-popup,
+  #mainPopupSet > panel {
     margin-top: 2px !important;
   }
   #mainPopupSet #editBookmarkPanel .panel-arrow {
@@ -637,38 +637,38 @@
     border-bottom-right-radius: 5px !important;
   }
   #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover {
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover {
     background: var(--firefox-safari-style-background-color-active) !important;
     background-image: linear-gradient(to bottom, var(--firefox-safari-style-input-background-active) 0%, var(--firefox-safari-style-input-background-active) 100%) !important;
   }
   #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:-moz-window-inactive,
-#navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover:-moz-window-inactive {
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:-moz-window-inactive, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:-moz-window-inactive,
+  #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover:-moz-window-inactive {
     background: var(--firefox-safari-style-background-color-inactive) !important;
     background-image: linear-gradient(to bottom, var(--firefox-safari-style-input-background-inactive) 0%, var(--firefox-safari-style-input-background-inactive) 100%) !important;
   }
   #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs,
-#main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover {
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer:hover,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .search-one-offs:hover, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer:hover,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs,
+  #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .search-one-offs:hover {
     background-color: var(--firefox-safari-style-background-color-private) !important;
   }
   #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar .urlbarView > .urlbarView-body-outer .urlbarView-body-inner, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar .urlbarView > .urlbarView-body-outer .urlbarView-body-inner, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar .urlbarView > .urlbarView-body-outer .urlbarView-body-inner, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar .urlbarView > .urlbarView-body-outer .urlbarView-body-inner {
@@ -699,11 +699,13 @@
 }
 @media (-moz-mac-yosemite-theme), (-moz-mac-big-sur-theme) {
   #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar html|input#urlbar-input, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar html|input#urlbar-input *, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar #searchbar-textbox, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar #searchbar-textbox *, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar html|input#urlbar-input, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar html|input#urlbar-input *, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar #searchbar-textbox, #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar #searchbar-textbox *, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar html|input#urlbar-input, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar html|input#urlbar-input *, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar #searchbar-textbox, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar #searchbar-textbox *, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar html|input#urlbar-input, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar html|input#urlbar-input *, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar #searchbar-textbox, #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar #searchbar-textbox * {
-    font-size: 13px !important;
+    font-size: 12px !important;
+    font-family: "Hack Nerd Font", "Fira Code", "Fira Mono", "Roboto Mono", "Source Code Pro", "Lucida Console", "Courier New", monospace !important;
     color: var(--firefox-safari-style-button-color) !important;
   }
   #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar html|input#urlbar-input, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar html|input#urlbar-input *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar #searchbar-textbox, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #urlbar #searchbar-textbox *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar html|input#urlbar-input, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar html|input#urlbar-input *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar #searchbar-textbox, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #urlbar-container #searchbar #searchbar-textbox *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar html|input#urlbar-input, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar html|input#urlbar-input *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar #searchbar-textbox, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #urlbar #searchbar-textbox *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar html|input#urlbar-input, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar html|input#urlbar-input *, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar #searchbar-textbox, #main-window[privatebrowsingmode] #navigator-toolbox #nav-bar #nav-bar-customization-target #search-container #searchbar #searchbar-textbox * {
     color: white !important;
+    font-family: "Hack Nerd Font", "Fira Code", "Fira Mono", "Roboto Mono", "Source Code Pro", "Lucida Console", "Courier New", monospace !important;
   }
 }
 @media (-moz-mac-yosemite-theme), (-moz-mac-big-sur-theme) {
@@ -901,6 +903,7 @@
     background-color: var(--firefox-safari-style-attention-color) !important;
     border-color: transparent !important;
     padding: 1px 2px 1px 2px !important;
+    font-family: "Hack Nerd Font", "Fira Code", "Fira Mono", "Roboto Mono", "Source Code Pro", "Lucida Console", "Courier New", monospace !important;
     font-size: 9px !important;
     margin-top: -1px !important;
     color: #fff !important;
@@ -1202,6 +1205,7 @@
     overflow: hidden;
   }
   #navigator-toolbox #titlebar #TabsToolbar .toolbar-items, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items #tabbrowser-tabs, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab::after, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab stack, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab .tab-content, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab .tab-label-container, #navigator-toolbox #titlebar #TabsToolbar .toolbar-items tab.tabbrowser-tab .tab-secondary-label {
+    font-family: "Hack Nerd Font", "Fira Code", "Fira Mono", "Roboto Mono", "Source Code Pro", "Lucida Console", "Courier New", monospace !important;
     max-height: var(--firefox-safari-style-tab-height) !important;
     height: var(--firefox-safari-style-tab-height) !important;
   }
